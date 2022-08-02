@@ -249,18 +249,21 @@ element = names.shift();
 console.log ( element ) ;
 
 // কোন Array এর ভিতরে কোন মান ছোট আথবা সমান কিনা সেটা বের করতে চাইলে সে ক্ষেত্রে Array এর ব্যবাহার ।
-console.log ( 4 < 5 ) ;
-console.log ( 6 < 5 ) ;
-console.log ( 5 > 4 ) ;
-console.log ( 5 > 6 ) ;
-console.log ( 5 <= 6 ) ;
-console.log ( 5 <= 5 ) ;
-console.log ( 5 <= 4 ) ;
-console.log ( 5 >= 4 ) ;
-console.log ( 5 >= 5 ) ;
-console.log ( 5 >= 6 ) ;
-console.log ( 5 == 5 ) ;
-console.log ( 5 == 6 ) ;
-console.log ( 5 !== 5 ) ;
-console.log ( 5 !== 6 ) ;
+// console.log ( 4 < 5 ) ;
+// console.log ( 6 < 5 ) ;
+// console.log ( 5 > 4 ) ;
+// console.log ( 5 > 6 ) ;
+// console.log ( 5 <= 6 ) ;
+// console.log ( 5 <= 5 ) ;
+// console.log ( 5 <= 4 ) ;
+// console.log ( 5 >= 4 ) ;
+// console.log ( 5 >= 5 ) ;
+// console.log ( 5 >= 6 ) ;
+// console.log ( 5 == 5 ) ;
+// console.log ( 5 == 6 ) ;
+// console.log ( 5 !== 5 ) ;
+// console.log ( 5 !== 6 ) ;
+
+console.log ( 4 < 5 || 5>5 ) ;
+
 
