@@ -144,6 +144,24 @@ var mangoes = 17;
 var person = 5;
 console.log(mangoes % person);
 
+// var এর ক্ষেত্রে কোন মান ছোট কিনবা বড় কিনা সেটা বের করার নিয়ম ।
+var num1 = 50 ;
+var num2 = 100 ;
+console.log ( num1 < num2 ) ;
+console.log ( num1 < num2 ) ;
+console.log ( num1 > num2 ) ;
+console.log ( num1 > num2 ) ;
+console.log ( num1 <= num2 ) ;
+console.log ( num1 <= num2 ) ;
+console.log ( num1 <= num2 ) ;
+console.log ( num1 >= num2 ) ;
+console.log ( num1 >= num2 ) ;
+console.log ( num1 >= num2 ) ;
+console.log ( num1 == num2 ) ;
+console.log ( num1 == num2 ) ;
+console.log ( num1 !== num2 ) ;
+console.log ( num1 !== num2 ) ;
+
 // ২ । javascript এ Array এর ব্যবহার ।
 
 // সংখ্যা ক্ষেত্রে Array এর ব্যবহার ।
