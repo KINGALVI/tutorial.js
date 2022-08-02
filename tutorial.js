@@ -313,3 +313,19 @@ if((isGraduated == false && salary > 5000) || car <= 0){
 else{
   console.log("you cannot sine");
 }
+
+// *৪র্থ নিয়ম 
+var money = 50 ;
+var chicken = 35 ;
+var tost = 45 ;
+var cock = 40 ;
+// এই নিয়মে যেকোন একটা শত ঠিক হলে বাকি শত গুলো আপ্লয় হয় না ।
+if(chicken > money){
+  console.log("ami cicken khabo");
+}
+else if ( tost < money){
+  console.log("ami tost khabo");
+}
+else if ( cock > money){
+  console.log("ami cock khabo");
+}
