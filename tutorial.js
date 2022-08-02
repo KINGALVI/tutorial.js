@@ -169,3 +169,13 @@ console.log ( number [3] ) ;
 var name = [ 'alvi' , "shale" , "apu" , "arghya" , 
 "rakib" , 'ahsoan' ] ;
 console.log ( name [3] ) ;
+
+// কোন Array এর মান পরিবতন করতে চাইলে এ ক্ষেত্রে Array এর ব্যবহার ।
+var number = [ 50 , 51 , 52 , 53 , 54 , 55 ] ;
+number [2] = 100 ;
+console.log ( number ) ;
+
+var name = [ 'alvi' , "shale" , "apu" , "arghya" , 
+"rakib" , 'ahsoan' ] ;
+name [3] = 'clash of clan'
+console.log ( name ) ;
