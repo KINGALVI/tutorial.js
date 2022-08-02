@@ -1,6 +1,8 @@
 // javascript এর code কাজ করছে নাকি তা পরিক্ষা করা যায 
 console.log(5);
 
+// ১ । javascript এ var এর ব্যবহার ।
+
 // সংখ্যা ক্ষেত্রে var এর ব্যবহার ।
 var age=2;
 console.log(age);
@@ -141,3 +143,10 @@ console.log(typeof true_false);
 var mangoes = 17;
 var person = 5;
 console.log(mangoes % person);
+
+// ২ । javascript এ Array এর ব্যবহার ।
+
+// সংখ্যা ক্ষেত্রে Array এর ব্যবহার ।
+var age = [11 , 12 , 13 , 14 , 15 ];
+
+// নাম এর ক্ষেত্রে Array এর ব্যবহার ।
