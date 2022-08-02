@@ -193,3 +193,12 @@ console.log ( number ) ;
 var names = [ 'alvi' , "shale" , "apu" , "arghya" ,  "rakib" , 'ahsoan' ] ;
 names.push('clash of clan');
 console.log ( names ) ;
+
+// কোন Array এর ভিতরে কোন মান কে সরিয়ে ফেলতে চাইলে  করতে চাইলে সে ক্ষেত্রে Array এর ব্যবাহার ।
+var number = [ 50 , 51 , 52 , 53 , 54 , 55 ] ;
+number.pop();
+console.log ( number ) ;
+
+var names = [ 'alvi' , "shale" , "apu" , "arghya" ,  "rakib" , 'ahsoan' ] ;
+names.pop();
+console.log ( names ) ;
