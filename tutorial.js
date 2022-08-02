@@ -181,3 +181,6 @@ name [3] = 'clash of clan'
 console.log ( name ) ;
 
 // কোন Array এর মান খুজে বের করতে চাইলে এ ক্ষেত্রে Array এর ব্যবহার ।
+var number = [ 50 , 51 , 52 , 53 , 54 , 55 ] ;
+var position_index = number.indexOf(55) ;
+console.log( position_index ) ;
