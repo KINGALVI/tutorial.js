@@ -194,7 +194,7 @@ var names = [ 'alvi' , "shale" , "apu" , "arghya" ,  "rakib" , 'ahsoan' ] ;
 names.push('clash of clan');
 console.log ( names ) ;
 
-// কোন Array এর ভিতরে কোন মান কে সরিয়ে ফেলতে চাইলে  করতে চাইলে সে ক্ষেত্রে Array এর ব্যবাহার ।
+// কোন Array এর ভিতরে শেষ মান কে সরিয়ে ফেলতে চাইলে সে ক্ষেত্রে Array এর ব্যবাহার ।
 var number = [ 50 , 51 , 52 , 53 , 54 , 55 ] ;
 number.pop();
 console.log ( number ) ;
@@ -203,11 +203,29 @@ var names = [ 'alvi' , "shale" , "apu" , "arghya" ,  "rakib" , 'ahsoan' ] ;
 names.pop();
 console.log ( names ) ;
 
-// কোন Array এর ভিতরে কোন মান কে সরিয়ে ফেলা হয়েছে সেটা বের করতে চাইলে সে ক্ষেত্রে Array এর ব্যবাহার ।
+// কোন Array এর ভিতরে শেষ মান কে সরিয়ে ফেলা হয়েছে এবং সেটা বের করতে চাইলে সে ক্ষেত্রে Array এর ব্যবাহার ।
 var number = [ 50 , 51 , 52 , 53 , 54 , 55 ] ;
 element = number.pop();
 console.log ( element ) ;
 
 var names = [ 'alvi' , "shale" , "apu" , "arghya" ,  "rakib" , 'ahsoan' ] ;
 element = names.pop();
+console.log ( element ) ;
+
+// কোন Array এর ভিতরে প্রথম মান কে সরিয়ে ফেলতে চাইলে সে ক্ষেত্রে Array এর ব্যবাহার ।
+var number = [ 50 , 51 , 52 , 53 , 54 , 55 ] ;
+number.shift();
+console.log ( number ) ;
+
+var names = [ 'alvi' , "shale" , "apu" , "arghya" ,  "rakib" , 'ahsoan' ] ;
+names.shift();
+console.log ( names ) ;
+
+// কোন Array এর ভিতরে প্রথম মান কে সরিয়ে ফেলা হয়েছে এবং সেটা বের করতে চাইলে সে ক্ষেত্রে Array এর ব্যবাহার ।
+var number = [ 50 , 51 , 52 , 53 , 54 , 55 ] ;
+element = number.shift();
+console.log ( element ) ;
+
+var names = [ 'alvi' , "shale" , "apu" , "arghya" ,  "rakib" , 'ahsoan' ] ;
+element = names.shift();
 console.log ( element ) ;
