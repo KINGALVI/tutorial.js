@@ -264,5 +264,21 @@ console.log ( 5 == 6 ) ;
 console.log ( 5 !== 5 ) ;
 console.log ( 5 !== 6 ) ;
 
+// ৩। javascript এ condisonal যেভাবে কাজ করে ।
 
+var iphone_price = 1000;
+var my_budget = 500;
 
+if(iphone_price>my_budget){
+  console.log("you can not buy iphone");
+}
+else{
+  console.log("you can buy iphone");
+}
+
+if(iphone_price<my_budget){
+  console.log("you can not buy iphone");
+}
+else{
+  console.log("you can buy iphone");
+}
