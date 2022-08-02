@@ -147,7 +147,17 @@ console.log(mangoes % person);
 // ২ । javascript এ Array এর ব্যবহার ।
 
 // সংখ্যা ক্ষেত্রে Array এর ব্যবহার ।
-var age = [11 , 12 , 13 , 14 , 15 ];
+var age = [11 , 12 , 13 , 14 , 15 ] ;
+console.log ( age ) ;
+
+// Array এর ভিতরে কত গুলো সংখ্যা আছে সেটা বের করার ক্ষেত্রে Array এর ব্যবহার ।
+// var age = [11 , 12 , 13 , 14 , 15 ] ;
+// console.log ( age.lenght ) ;
 
 // নাম এর ক্ষেত্রে Array এর ব্যবহার ।
-var name = ['alvi' , ""]
+var name = [ 'alvi' , "abusle" , "ahosan" , "arghya" , 'apu' ] ;
+console.log ( name ) ;
+
+// Array এর ভিতরে কত গুলো শব্দ আছে সেটা বের করার ক্ষেত্রে Array এর ব্যবহার ।
+// var name = [ 'alvi' , "abusle" , "ahosan" , "arghya" , 'apu' ] ;
+// console.log ( name.lenght ) ;
