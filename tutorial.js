@@ -161,3 +161,11 @@ console.log ( name ) ;
 // Array এর ভিতরে কত গুলো শব্দ আছে সেটা বের করার ক্ষেত্রে Array এর ব্যবহার ।
 // var name = [ 'alvi' , "abusle" , "ahosan" , "arghya" , 'apu' ] ;
 // console.log ( name.lenght ) ;
+
+// Array এর ভিতরে কোন নিদিষ্ট আক্ষর বা সংখ্যা বের করতে চাইলে এ ক্ষেত্রে Array এর ব্যবহার ।
+var number = [ 50 , 51 , 52 , 53 , 54 , 55 ] ;
+console.log ( number [3] ) ;
+
+var name = [ 'alvi' , "shale" , "apu" , "arghya" , 
+"rakib" , 'ahsoan' ] ;
+console.log ( name [3] ) ;
