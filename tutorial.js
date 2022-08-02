@@ -150,3 +150,4 @@ console.log(mangoes % person);
 var age = [11 , 12 , 13 , 14 , 15 ];
 
 // নাম এর ক্ষেত্রে Array এর ব্যবহার ।
+var name = ['alvi' , ""]
