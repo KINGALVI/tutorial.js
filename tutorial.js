@@ -151,16 +151,16 @@ var age = [11 , 12 , 13 , 14 , 15 ] ;
 console.log ( age ) ;
 
 // Array এর ভিতরে কত গুলো সংখ্যা আছে সেটা বের করার ক্ষেত্রে Array এর ব্যবহার ।
-// var age = [11 , 12 , 13 , 14 , 15 ] ;
-// console.log ( age.lenght ) ;
+var age = [11 , 12 , 13 , 14 , 15 ] ;
+console.log ( age.lenght ) ;
 
 // নাম এর ক্ষেত্রে Array এর ব্যবহার ।
 var name = [ 'alvi' , "abusle" , "ahosan" , "arghya" , 'apu' ] ;
 console.log ( name ) ;
 
 // Array এর ভিতরে কত গুলো শব্দ আছে সেটা বের করার ক্ষেত্রে Array এর ব্যবহার ।
-// var name = [ 'alvi' , "abusle" , "ahosan" , "arghya" , 'apu' ] ;
-// console.log ( name.lenght ) ;
+var name = [ 'alvi' , "abusle" , "ahosan" , "arghya" , 'apu' ] ;
+console.log ( name.lenght ) ;
 
 // Array এর ভিতরে কোন নিদিষ্ট আক্ষর বা সংখ্যা বের করতে চাইলে এ ক্ষেত্রে Array এর ব্যবহার ।
 var number = [ 50 , 51 , 52 , 53 , 54 , 55 ] ;
@@ -168,7 +168,7 @@ console.log ( number [3] ) ;
 
 var name = [ 'alvi' , "shale" , "apu" , "arghya" , 
 "rakib" , 'ahsoan' ] ;
-console.log ( name [3] ) ;
+console.log ( name [1] ) ;
 
 // কোন Array এর মান পরিবতন করতে চাইলে এ ক্ষেত্রে Array এর ব্যবহার ।
 var number = [ 50 , 51 , 52 , 53 , 54 , 55 ] ;
@@ -184,3 +184,12 @@ console.log ( name ) ;
 var number = [ 50 , 51 , 52 , 53 , 54 , 55 ] ;
 var position_index = number.indexOf(55) ;
 console.log( position_index ) ;
+
+// কোন Array এর ভিতরে নুতুন মান যোগ করতে চাইলে সে ক্ষেত্রে Array এর ব্যবহার ।
+var number = [ 50 , 51 , 52 , 53 , 54 , 55 ] ;
+number.push(500);
+console.log ( number ) ;
+
+var names = [ 'alvi' , "shale" , "apu" , "arghya" ,  "rakib" , 'ahsoan' ] ;
+names.push('clash of clan');
+console.log ( names ) ;
