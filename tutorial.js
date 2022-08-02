@@ -266,19 +266,50 @@ console.log ( 5 !== 6 ) ;
 
 // ৩। javascript এ condisonal যেভাবে কাজ করে ।
 
+//  *১ নিয়ম 
 var iphone_price = 1000;
 var my_budget = 500;
-
+// যদি কথা সত্যি হয় তাহলে এই উত্তর আসবে ।
 if(iphone_price>my_budget){
   console.log("you can not buy iphone");
 }
+// যদি কথা সত্যি না হয় তাহলে এই উত্তর আসবে ।
 else{
   console.log("you can buy iphone");
 }
 
-if(iphone_price<my_budget){
-  console.log("you can not buy iphone");
+// *২য় নিয়ম 
+var isGraduated = true ;
+var salary = 5000 ;
+// যদি এই দুইটি  কথা সত্যি হয় তাহলে এই উত্তর আসবে ।
+if(isGraduated == true && salary > 4000){
+  console.log( "i will succsess" );
 }
+// যদি এই দুইটি  কথা সত্যি না হয় তাহলে এই উত্তর আসবে ।
 else{
-  console.log("you can buy iphone");
+  console.log("i will not success");
+}
+
+var isGraduated = true ;
+var salary = 5000 ;
+// যদি এই দুইটি  কথার মধ্যে একটি কথা সত্যি হয় তাহলে এই উত্তর আসবে ।
+if(isGraduated == true || salary < 9000 ){
+  console.log("you can win");
+}
+// যদি এই দুইটি  কথার মধ্যে কোন কথা সত্যি না হয় তাহলে এই উত্তর আসবে ।
+else {
+  console.log("you cannot win");
+}
+
+// *৩য় নিয়ম 
+var isGraduated = true ;
+var salary = 5000 ;
+var car = 1 ;
+// যদি একসাথে তিনটি বিষয় সত্যি তাহলে এই লেখা আসবে ।
+if((isGraduated == false && salary > 5000) || car <= 0){
+  console.log("you can sine");
+}
+// যদি একসাথে তিনটি বিষয় সত্যি না হয় তাহলে এই লেখা আসবে ।
+else{
+  console.log("you cannot sine");
 }
