@@ -179,3 +179,5 @@ var name = [ 'alvi' , "shale" , "apu" , "arghya" ,
 "rakib" , 'ahsoan' ] ;
 name [3] = 'clash of clan'
 console.log ( name ) ;
+
+// কোন Array এর মান খুজে বের করতে চাইলে এ ক্ষেত্রে Array এর ব্যবহার ।
