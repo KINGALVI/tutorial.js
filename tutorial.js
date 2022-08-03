@@ -393,10 +393,28 @@ else if(39<=[]){
 
 // while loop বের করার একটা সাধারণ নিয়ম ।
 var roastGiven = 0;
-while(roastGiven < 7) {
+while(roastGiven < 7) {console.log('rost den , please !!');
   console.log(roastGiven);
-  console.log('rost den , please !!')
   roastGiven++;
   // roastGiven = roastGiven + 1;
   // roastGiven += 1;
+}
+
+// for loop কে সংক্ষেপে লেখার নিয়ম ।
+for( var roastGiven =1 ; roastGiven <=10 ; roastGiven++){
+  console.log(roastGiven);
+}
+
+// while loop বিজোড় সংখ্যা  বের করার একটা সাধারণ নিয়ম ।
+var roastGiven = 1;
+while(roastGiven <= 10) {
+  console.log(roastGiven);
+  roastGiven = roastGiven + 2;
+}
+
+// while loop জোড় সংখ্যা  বের করার একটা সাধারণ নিয়ম ।
+var roastGiven = 0;
+while(roastGiven <= 10) {
+  console.log(roastGiven);
+  roastGiven = roastGiven + 2;
 }
