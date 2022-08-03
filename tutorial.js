@@ -1,6 +1,14 @@
 // javascript এর code কাজ করছে নাকি তা পরিক্ষা করা যায 
 console.log(5);
 
+
+
+
+
+
+
+
+
 // ১ । javascript এ var এর ব্যবহার ।
 
 // সংখ্যা ক্ষেত্রে var এর ব্যবহার ।
@@ -50,8 +58,6 @@ var true_false = false;
 true_false = true;
 console.log(true_false);
 
-
-
 var tomato_price = 20;
 tomato_price = 10;
 var potato_price = 20;
@@ -65,8 +71,6 @@ var potato_price = 20;
 potato_price = 5;
 var total_price = tomato_price - potato_price;
 console.log(total_price);
-
-
 
 var orange_prize = 50;
 orange_prize = 25;
@@ -96,8 +100,6 @@ var potato_price = 20;
 potato_price -= 5;
 var total_price = tomato_price - potato_price;
 console.log(total_price);
-
-
 
 var orange_prize = 50;
 orange_prize *= 25;
@@ -161,6 +163,15 @@ console.log(num1 == num2);
 console.log(num1 == num2);
 console.log(num1 !== num2);
 console.log(num1 !== num2);
+
+
+
+
+
+
+
+
+
 
 // ২ । javascript এ Array এর ব্যবহার ।
 
@@ -280,6 +291,15 @@ console.log(5 == 6);
 console.log(5 !== 5);
 console.log(5 !== 6);
 
+
+
+
+
+
+
+
+
+
 // ৩। javascript এ condisonal যেভাবে কাজ করে ।
 
 //  *১ নিয়ম 
@@ -388,6 +408,16 @@ else if(40<=[]){
 else if(39<=[]){
   console.log("f grade")
 }
+
+
+
+
+
+
+
+
+
+
 
 // ৪। javascript এ loop যেভাবে কাজ করে ।
 
