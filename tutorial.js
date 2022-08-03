@@ -4,13 +4,13 @@ console.log(5);
 // ১ । javascript এ var এর ব্যবহার ।
 
 // সংখ্যা ক্ষেত্রে var এর ব্যবহার ।
-var age=2;
+var age = 2;
 console.log(age);
 
 // নাম এর ক্ষেত্রে var এর ব্যবহার ।
 var name = "alvi";
 var country_name = 'BANGLADESH';
-console.log(country_name,name);
+console.log(country_name, name);
 
 // সত্য আথবা মিত্র্যা এর ক্ষেত্রে var এর ব্যবহার |
 var true_false = true;
@@ -145,124 +145,124 @@ var person = 5;
 console.log(mangoes % person);
 
 // var এর ক্ষেত্রে কোন মান ছোট কিনবা বড় কিনা সেটা বের করার নিয়ম ।
-var num1 = 50 ;
-var num2 = 100 ;
-console.log ( num1 < num2 ) ;
-console.log ( num1 < num2 ) ;
-console.log ( num1 > num2 ) ;
-console.log ( num1 > num2 ) ;
-console.log ( num1 <= num2 ) ;
-console.log ( num1 <= num2 ) ;
-console.log ( num1 <= num2 ) ;
-console.log ( num1 >= num2 ) ;
-console.log ( num1 >= num2 ) ;
-console.log ( num1 >= num2 ) ;
-console.log ( num1 == num2 ) ;
-console.log ( num1 == num2 ) ;
-console.log ( num1 !== num2 ) ;
-console.log ( num1 !== num2 ) ;
+var num1 = 50;
+var num2 = 100;
+console.log(num1 < num2);
+console.log(num1 < num2);
+console.log(num1 > num2);
+console.log(num1 > num2);
+console.log(num1 <= num2);
+console.log(num1 <= num2);
+console.log(num1 <= num2);
+console.log(num1 >= num2);
+console.log(num1 >= num2);
+console.log(num1 >= num2);
+console.log(num1 == num2);
+console.log(num1 == num2);
+console.log(num1 !== num2);
+console.log(num1 !== num2);
 
 // ২ । javascript এ Array এর ব্যবহার ।
 
 // সংখ্যা ক্ষেত্রে Array এর ব্যবহার ।
-var age = [11 , 12 , 13 , 14 , 15 ] ;
-console.log ( age ) ;
+var age = [11, 12, 13, 14, 15];
+console.log(age);
 
 // Array এর ভিতরে কত গুলো সংখ্যা আছে সেটা বের করার ক্ষেত্রে Array এর ব্যবহার ।
-var age = [11 , 12 , 13 , 14 , 15 ] ;
-console.log ( age.lenght ) ;
+var age = [11, 12, 13, 14, 15];
+console.log(age.lenght);
 
 // নাম এর ক্ষেত্রে Array এর ব্যবহার ।
-var name = [ 'alvi' , "abusle" , "ahosan" , "arghya" , 'apu' ] ;
-console.log ( name ) ;
+var name = ['alvi', "abusle", "ahosan", "arghya", 'apu'];
+console.log(name);
 
 // Array এর ভিতরে কত গুলো শব্দ আছে সেটা বের করার ক্ষেত্রে Array এর ব্যবহার ।
-var name = [ 'alvi' , "abusle" , "ahosan" , "arghya" , 'apu' ] ;
-console.log ( name.lenght ) ;
+var name = ['alvi', "abusle", "ahosan", "arghya", 'apu'];
+console.log(name.lenght);
 
 // Array এর ভিতরে কোন নিদিষ্ট আক্ষর বা সংখ্যা বের করতে চাইলে এ ক্ষেত্রে Array এর ব্যবহার ।
-var number = [ 50 , 51 , 52 , 53 , 54 , 55 ] ;
-console.log ( number [3] ) ;
+var number = [50, 51, 52, 53, 54, 55];
+console.log(number[3]);
 
-var name = [ 'alvi' , "shale" , "apu" , "arghya" , 
-"rakib" , 'ahsoan' ] ;
-console.log ( name [1] ) ;
+var name = ['alvi', "shale", "apu", "arghya",
+  "rakib", 'ahsoan'];
+console.log(name[1]);
 
 // কোন Array এর মান পরিবতন করতে চাইলে এ ক্ষেত্রে Array এর ব্যবহার ।
-var number = [ 50 , 51 , 52 , 53 , 54 , 55 ] ;
-number [2] = 100 ;
-console.log ( number ) ;
+var number = [50, 51, 52, 53, 54, 55];
+number[2] = 100;
+console.log(number);
 
-var name = [ 'alvi' , "shale" , "apu" , "arghya" , 
-"rakib" , 'ahsoan' ] ;
-name [3] = 'clash of clan'
-console.log ( name ) ;
+var name = ['alvi', "shale", "apu", "arghya",
+  "rakib", 'ahsoan'];
+name[3] = 'clash of clan'
+console.log(name);
 
 // কোন Array এর মান খুজে বের করতে চাইলে এ ক্ষেত্রে Array এর ব্যবহার ।
-var number = [ 50 , 51 , 52 , 53 , 54 , 55 ] ;
-var position_index = number.indexOf(55) ;
-console.log( position_index ) ;
+var number = [50, 51, 52, 53, 54, 55];
+var position_index = number.indexOf(55);
+console.log(position_index);
 
 // কোন Array এর ভিতরে নুতুন মান যোগ করতে চাইলে সে ক্ষেত্রে Array এর ব্যবহার ।
-var number = [ 50 , 51 , 52 , 53 , 54 , 55 ] ;
+var number = [50, 51, 52, 53, 54, 55];
 number.push(500);
-console.log ( number ) ;
+console.log(number);
 
-var names = [ 'alvi' , "shale" , "apu" , "arghya" ,  "rakib" , 'ahsoan' ] ;
+var names = ['alvi', "shale", "apu", "arghya", "rakib", 'ahsoan'];
 names.push('clash of clan');
-console.log ( names ) ;
+console.log(names);
 
 // কোন Array এর ভিতরে শেষ মান কে সরিয়ে ফেলতে চাইলে সে ক্ষেত্রে Array এর ব্যবাহার ।
-var number = [ 50 , 51 , 52 , 53 , 54 , 55 ] ;
+var number = [50, 51, 52, 53, 54, 55];
 number.pop();
-console.log ( number ) ;
+console.log(number);
 
-var names = [ 'alvi' , "shale" , "apu" , "arghya" ,  "rakib" , 'ahsoan' ] ;
+var names = ['alvi', "shale", "apu", "arghya", "rakib", 'ahsoan'];
 names.pop();
-console.log ( names ) ;
+console.log(names);
 
 // কোন Array এর ভিতরে শেষ মান কে সরিয়ে ফেলা হয়েছে এবং সেটা বের করতে চাইলে সে ক্ষেত্রে Array এর ব্যবাহার ।
-var number = [ 50 , 51 , 52 , 53 , 54 , 55 ] ;
+var number = [50, 51, 52, 53, 54, 55];
 element = number.pop();
-console.log ( element ) ;
+console.log(element);
 
-var names = [ 'alvi' , "shale" , "apu" , "arghya" ,  "rakib" , 'ahsoan' ] ;
+var names = ['alvi', "shale", "apu", "arghya", "rakib", 'ahsoan'];
 element = names.pop();
-console.log ( element ) ;
+console.log(element);
 
 // কোন Array এর ভিতরে প্রথম মান কে সরিয়ে ফেলতে চাইলে সে ক্ষেত্রে Array এর ব্যবাহার ।
-var number = [ 50 , 51 , 52 , 53 , 54 , 55 ] ;
+var number = [50, 51, 52, 53, 54, 55];
 number.shift();
-console.log ( number ) ;
+console.log(number);
 
-var names = [ 'alvi' , "shale" , "apu" , "arghya" ,  "rakib" , 'ahsoan' ] ;
+var names = ['alvi', "shale", "apu", "arghya", "rakib", 'ahsoan'];
 names.shift();
-console.log ( names ) ;
+console.log(names);
 
 // কোন Array এর ভিতরে প্রথম মান কে সরিয়ে ফেলা হয়েছে এবং সেটা বের করতে চাইলে সে ক্ষেত্রে Array এর ব্যবাহার ।
-var number = [ 50 , 51 , 52 , 53 , 54 , 55 ] ;
+var number = [50, 51, 52, 53, 54, 55];
 element = number.shift();
-console.log ( element ) ;
+console.log(element);
 
-var names = [ 'alvi' , "shale" , "apu" , "arghya" ,  "rakib" , 'ahsoan' ] ;
+var names = ['alvi', "shale", "apu", "arghya", "rakib", 'ahsoan'];
 element = names.shift();
-console.log ( element ) ;
+console.log(element);
 
 // কোন Array এর ভিতরে কোন মান ছোট আথবা সমান কিনা সেটা বের করতে চাইলে সে ক্ষেত্রে Array এর ব্যবাহার ।
-console.log ( 4 < 5 ) ;
-console.log ( 6 < 5 ) ;
-console.log ( 5 > 4 ) ;
-console.log ( 5 > 6 ) ;
-console.log ( 5 <= 6 ) ;
-console.log ( 5 <= 5 ) ;
-console.log ( 5 <= 4 ) ;
-console.log ( 5 >= 4 ) ;
-console.log ( 5 >= 5 ) ;
-console.log ( 5 >= 6 ) ;
-console.log ( 5 == 5 ) ;
-console.log ( 5 == 6 ) ;
-console.log ( 5 !== 5 ) ;
-console.log ( 5 !== 6 ) ;
+console.log(4 < 5);
+console.log(6 < 5);
+console.log(5 > 4);
+console.log(5 > 6);
+console.log(5 <= 6);
+console.log(5 <= 5);
+console.log(5 <= 4);
+console.log(5 >= 4);
+console.log(5 >= 5);
+console.log(5 >= 6);
+console.log(5 == 5);
+console.log(5 == 6);
+console.log(5 !== 5);
+console.log(5 !== 6);
 
 // ৩। javascript এ condisonal যেভাবে কাজ করে ।
 
@@ -270,30 +270,30 @@ console.log ( 5 !== 6 ) ;
 var iphone_price = 1000;
 var my_budget = 500;
 // যদি কথা সত্যি হয় তাহলে এই উত্তর আসবে ।
-if(iphone_price>my_budget){
+if (iphone_price > my_budget) {
   console.log("you can not buy iphone");
 }
 // যদি কথা সত্যি না হয় তাহলে এই উত্তর আসবে ।
-else{
+else {
   console.log("you can buy iphone");
 }
 
 // *২য় নিয়ম 
-var isGraduated = true ;
-var salary = 5000 ;
+var isGraduated = true;
+var salary = 5000;
 // যদি এই দুইটি  কথা সত্যি হয় তাহলে এই উত্তর আসবে ।
-if(isGraduated == true && salary > 4000){
-  console.log( "i will succsess" );
+if (isGraduated == true && salary > 4000) {
+  console.log("i will succsess");
 }
 // যদি এই দুইটি  কথা সত্যি না হয় তাহলে এই উত্তর আসবে ।
-else{
+else {
   console.log("i will not success");
 }
 
-var isGraduated = true ;
-var salary = 5000 ;
+var isGraduated = true;
+var salary = 5000;
 // যদি এই দুইটি  কথার মধ্যে একটি কথা সত্যি হয় তাহলে এই উত্তর আসবে ।
-if(isGraduated == true || salary < 9000 ){
+if (isGraduated == true || salary < 9000) {
   console.log("you can win");
 }
 // যদি এই দুইটি  কথার মধ্যে কোন কথা সত্যি না হয় তাহলে এই উত্তর আসবে ।
@@ -302,30 +302,51 @@ else {
 }
 
 // *৩য় নিয়ম 
-var isGraduated = true ;
-var salary = 5000 ;
-var car = 1 ;
+var isGraduated = true;
+var salary = 5000;
+var car = 1;
 // যদি একসাথে তিনটি বিষয় সত্যি তাহলে এই লেখা আসবে ।
-if((isGraduated == false && salary > 5000) || car <= 0){
+if ((isGraduated == false && salary > 5000) || car <= 0) {
   console.log("you can sine");
 }
 // যদি একসাথে তিনটি বিষয় সত্যি না হয় তাহলে এই লেখা আসবে ।
-else{
+else {
   console.log("you cannot sine");
 }
 
 // *৪র্থ নিয়ম 
-var money = 50 ;
-var chicken = 35 ;
-var tost = 45 ;
-var cock = 40 ;
+var money = 50;
+var chicken = 35;
+var tost = 45;
+var cock = 40;
 // এই নিয়মে যেকোন একটা শত ঠিক হলে বাকি শত গুলো আপ্লয় হয় না ।
-if(chicken > money){
+if (chicken > money) {
   console.log("ami cicken khabo");
 }
-else if ( tost < money){
+else if (tost < money) {
   console.log("ami tost khabo");
 }
-else if ( cock > money){
+else if (cock > money) {
   console.log("ami cock khabo");
+}
+
+// *৫ম নিয়ম 
+var math = true;
+var geometry = true;
+// এই নিয়মে আমরা চাইলে একটি if else এর ভিতরে আরেকটি if else বসাতে পারি ।
+if (math == true) {
+  if (math == true && geometry == true) {
+    console.log("i will gainner")
+  }
+  else {
+    //  আমরা এখানে চাইলে কিছু লিখতে পারি ।
+  }
+}
+else {
+  if (math == false && geometry == false) {
+    console.log("i will not gainner")
+  }
+  else {
+    //  আমরা এখানে চাইলে কিছু লিখতে পারি ।
+  }
 }
