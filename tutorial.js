@@ -350,3 +350,25 @@ else {
     //  আমরা এখানে চাইলে কিছু লিখতে পারি ।
   }
 }
+
+// speshal example of if else
+var my_score=85;
+var tom_score=66;
+var jane_score=95;
+var peater_score=56;
+var jhone_score=40;
+if(80<=[]){
+  console.log("a grade")
+}
+else if (60<= []){
+  console.log("b grde")
+}
+else if (50<=[]){
+  console.log("c grade")
+}
+else if(40<=[]){
+  console.log("d grade")
+}
+else if(39<=[]){
+  console.log("f grade")
+}
