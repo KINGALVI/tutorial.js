@@ -168,6 +168,14 @@ console.log(num1 !== num2);
 var age = [11, 12, 13, 14, 15];
 console.log(age);
 
+// Array কোন মান কোন জায়গায় আছে সেটা বের করার নিয়ম ।
+// Array কোন মান কোন জায়গায় আছে সেটা বের করার নিয়ম ।
+var number = [11, 12, 13, 14, 15];
+console.log(number.indexOf(13));
+
+var name = ['alvi', "abusle", "ahosan", "arghya", 'apu'];
+console.log(name.indexOf('apu'));
+
 // Array এর ভিতরে কত গুলো সংখ্যা আছে সেটা বের করার ক্ষেত্রে Array এর ব্যবহার ।
 var age = [11, 12, 13, 14, 15];
 console.log(age.lenght);
@@ -372,3 +380,7 @@ else if(40<=[]){
 else if(39<=[]){
   console.log("f grade")
 }
+
+// ৪। javascript এ loop যেভাবে কাজ করে ।
+
+
