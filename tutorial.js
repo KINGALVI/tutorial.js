@@ -390,3 +390,13 @@ else if(39<=[]){
 }
 
 // ৪। javascript এ loop যেভাবে কাজ করে ।
+
+// while loop বের করার একটা সাধারণ নিয়ম ।
+var roastGiven = 0;
+while(roastGiven < 7) {
+  console.log(roastGiven);
+  console.log('rost den , please !!')
+  roastGiven++;
+  // roastGiven = roastGiven + 1;
+  // roastGiven += 1;
+}
