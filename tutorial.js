@@ -405,6 +405,11 @@ for( var roastGiven =1 ; roastGiven <=10 ; roastGiven++){
   console.log(roastGiven);
 }
 
+// for loop কে আরোও সংক্ষেপে লেখার নিয়ম ।
+for(var r =5 ; r <= 15 ; r++){
+  console.log(r);
+}
+
 // while loop বিজোড় সংখ্যা  বের করার একটা সাধারণ নিয়ম ।
 var roastGiven = 1;
 while(roastGiven <= 10) {
