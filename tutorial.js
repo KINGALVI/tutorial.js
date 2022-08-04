@@ -485,4 +485,23 @@ for (var i = 0; i < numbers.length; i++) {
 // while loop reverce way তে পরিচালনা করার ক্ষেত্রে while loop এর ব্যবহার ।
 for(var num=10; num>=1; num--){
   console.log(num);
+  
 }
+
+
+
+
+
+
+
+
+
+
+// ৪। javascript এ function যেভাবে কাজ করে ।
+
+// function চালু করার সাধারণ নিয়ম ।
+ function starting(money){
+  console.log('alvi al mahmud');
+  console.log(money);
+ }
+ starting(100);
