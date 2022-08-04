@@ -519,3 +519,12 @@ function sum(a, b, c, d, e) {
   console.log(sum);
 }
 sum(23, 34, 54, 35, 64);
+
+// function এ কোন কিছু ফেরত পেতে গেলে সে ক্ষেত্রে return এর ব্যবহার ।
+function add (alvi1 , alvi2) {
+  console.log(alvi1 , alvi2);
+  var sum = alvi1 + alvi2;
+  return sum;
+}
+var total = add(10 , 15);
+console.log('total',total)
