@@ -463,7 +463,7 @@ while (roastGiven <= 10) {
   roastGiven = roastGiven + 2;
 }
 
-// for loop এর দেওয়া condition পুরন না করে যদি আমরা আমাদের for loop এর ব্যবহার ।
+// for loop এর দেওয়া condition পুরন না করে যদি আমরা আমাদের for loop শেষ করততে চাই তাহলে এ ক্ষেত্রে for loop এর ব্যবহার ।
 for (var i = 1; i <= 25; i++) {
   console.log(i);
   if (i <= 20) {
