@@ -513,9 +513,9 @@ function starting(num1, num2) {
 starting(100, 200);
 
 // function একধিক মান সেট করার নিয়ম ।
-function sum(a , b , c , d , e) {
-  console.log(a , b , c , d , e);
+function sum(a, b, c, d, e) {
+  console.log(a, b, c, d, e);
   var sum = a + b + c + d + e;
   console.log(sum);
 }
-sum(23 , 34 , 54 , 35 , 64 );
+sum(23, 34, 54, 35, 64);
