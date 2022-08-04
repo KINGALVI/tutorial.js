@@ -440,6 +440,14 @@ for(var r =5 ; r <= 15 ; r++){
   console.log(r);
 }
 
+for(var r =5 ; r <= 15 ; r=r+2){
+  console.log(r);
+}
+
+for(var r =5 ; r <= 15 ; r+=2){
+  console.log(r);
+}
+
 // while loop বিজোড় সংখ্যা  বের করার একটা সাধারণ নিয়ম ।
 var roastGiven = 1;
 while(roastGiven <= 10) {
