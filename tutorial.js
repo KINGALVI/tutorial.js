@@ -504,10 +504,18 @@ function starting(money) {
   console.log('alvi al mahmud');
   console.log(money);
 }
-starting(100) 
+starting(100)
 
 // function add করতে চাইলে সে ক্ষেত্রে function এর ব্যবহার ।
-function starting(num1 , num2){
-  console.log('going to add :', num1 , num2);
+function starting(num1, num2) {
+  console.log('going to add :', num1, num2);
 }
-starting(100 ,200);
+starting(100, 200);
+
+// function একধিক মান সেট করার নিয়ম ।
+function sum(a , b , c , d , e) {
+  console.log(a , b , c , d , e);
+  var sum = a + b + c + d + e;
+  console.log(sum);
+}
+sum(23 , 34 , 54 , 35 , 64 );
