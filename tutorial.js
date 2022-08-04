@@ -470,3 +470,13 @@ for (var i = 1; i <= 25; i++) {
     break;
   }
 }
+console.log('alvi')
+
+var numbers =[45 , 34 , 55 , 67, 54, 34 , 52 , 50];
+for(var i=0; i<numbers.length; i++){
+  var numbers = numbers[i];
+  if(numbers>50){
+    continue;
+  }
+  console.log(numbers)
+}
