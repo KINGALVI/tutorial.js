@@ -528,3 +528,12 @@ function add (alvi1 , alvi2) {
 }
 var total = add(10 , 15);
 console.log('total',total)
+
+// good externalpe of return function
+function egg(money){
+  var eggPrice = 10;
+  var quantity = money / eggPrice;
+  return quantity;
+}
+var totalEgg = egg(300);
+console.log('totalEgg :', totalEgg);
