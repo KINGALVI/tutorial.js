@@ -461,3 +461,11 @@ while(roastGiven <= 10) {
   console.log(roastGiven);
   roastGiven = roastGiven + 2;
 }
+
+// for loop এর দেওয়া condition পুরন না করে যদি আমরা আমাদের for loop এর ব্যবহার ।
+for(var i =1; i<=25; i++){
+ console.log(i);
+ if(i>=20){
+  break;
+ }
+}
