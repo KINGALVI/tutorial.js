@@ -188,11 +188,11 @@ console.log(name.indexOf('apu'));
 
 // কোন Array ভিতরে মান পরিবতন করতে চাইলে সে ক্ষেত্রে Array এর ব্যবহার ।
 var alvi = ['alvi', "shale", "apu", "arghya", "rakib", 'ahsoan'];
-alvi[3]='clash of clan'
+alvi[3] = 'clash of clan'
 console.log(alvi);
 
 var number = [11, 12, 13, 14, 15];
-number[2] = 100 ;
+number[2] = 100;
 console.log(number);
 
 // Array এর ভিতরে কত গুলো সংখ্যা আছে সেটা বের করার ক্ষেত্রে Array এর ব্যবহার ।
@@ -388,24 +388,24 @@ else {
 }
 
 // speshal example of if else
-var my_score=85;
-var tom_score=66;
-var jane_score=95;
-var peater_score=56;
-var jhone_score=40;
-if(80<=[]){
+var my_score = 85;
+var tom_score = 66;
+var jane_score = 95;
+var peater_score = 56;
+var jhone_score = 40;
+if (80 <= []) {
   console.log("a grade")
 }
-else if (60<= []){
+else if (60 <= []) {
   console.log("b grde")
 }
-else if (50<=[]){
+else if (50 <= []) {
   console.log("c grade")
 }
-else if(40<=[]){
+else if (40 <= []) {
   console.log("d grade")
 }
-else if(39<=[]){
+else if (39 <= []) {
   console.log("f grade")
 }
 
@@ -423,7 +423,8 @@ else if(39<=[]){
 
 // while loop বের করার একটা সাধারণ নিয়ম ।
 var roastGiven = 0;
-while(roastGiven < 7) {console.log('rost den , please !!');
+while (roastGiven < 7) {
+  console.log('rost den , please !!');
   console.log(roastGiven);
   roastGiven++;
   // roastGiven = roastGiven + 1;
@@ -431,41 +432,41 @@ while(roastGiven < 7) {console.log('rost den , please !!');
 }
 
 // for loop কে সংক্ষেপে লেখার নিয়ম ।
-for( var roastGiven =1 ; roastGiven <=10 ; roastGiven++){
+for (var roastGiven = 1; roastGiven <= 10; roastGiven++) {
   console.log(roastGiven);
 }
 
 // for loop কে আরোও সংক্ষেপে লেখার নিয়ম ।
-for(var r =5 ; r <= 15 ; r++){
+for (var r = 5; r <= 15; r++) {
   console.log(r);
 }
 
-for(var r =5 ; r <= 15 ; r=r+2){
+for (var r = 5; r <= 15; r = r + 2) {
   console.log(r);
 }
 
-for(var r =5 ; r <= 15 ; r+=2){
+for (var r = 5; r <= 15; r += 2) {
   console.log(r);
 }
 
 // while loop বিজোড় সংখ্যা  বের করার একটা সাধারণ নিয়ম ।
 var roastGiven = 1;
-while(roastGiven <= 10) {
+while (roastGiven <= 10) {
   console.log(roastGiven);
   roastGiven = roastGiven + 2;
 }
 
 // while loop জোড় সংখ্যা  বের করার একটা সাধারণ নিয়ম ।
 var roastGiven = 0;
-while(roastGiven <= 10) {
+while (roastGiven <= 10) {
   console.log(roastGiven);
   roastGiven = roastGiven + 2;
 }
 
 // for loop এর দেওয়া condition পুরন না করে যদি আমরা আমাদের for loop এর ব্যবহার ।
-for(var i =1; i<=25; i++){
- console.log(i);
- if(i>=20){
-  break;
- }
+for (var i = 1; i <= 25; i++) {
+  console.log(i);
+  if (i <= 20) {
+    break;
+  }
 }
