@@ -521,16 +521,16 @@ function sum(a, b, c, d, e) {
 sum(23, 34, 54, 35, 64);
 
 // function এ কোন কিছু ফেরত পেতে গেলে সে ক্ষেত্রে return এর ব্যবহার ।
-function add (alvi1 , alvi2) {
-  console.log(alvi1 , alvi2);
+function add(alvi1, alvi2) {
+  console.log(alvi1, alvi2);
   var sum = alvi1 + alvi2;
   return sum;
 }
-var total = add(10 , 15);
-console.log('total',total)
+var total = add(10, 15);
+console.log('total', total)
 
 // good externalpe of return function
-function egg(money){
+function egg(money) {
   var eggPrice = 10;
   var quantity = money / eggPrice;
   return quantity;
@@ -539,14 +539,14 @@ var totalEgg = egg(300);
 console.log('totalEgg :', totalEgg);
 
 // const ব্যবহার করে function এর ফলাফল বের করার নিয়ম ।
-const assigment1= 55 ;
-const assigment2 = 42 ;
-const assigment3 = 56 ;
-function getAvarage 
-(assigment1 , assigment2 , assigment3){
+const assigment1 = 55;
+const assigment2 = 42;
+const assigment3 = 56;
+function getAvarage
+  (assigment1, assigment2, assigment3) {
   const total = assigment1 + assigment2 + assigment3;
- const getAvarage = total / 3;
- return getAvarage;
+  const getAvarage = total / 3;
+  return getAvarage;
 }
-const totalAvarage = getAvarage(assigment1 , assigment2 , assigment3);
+const totalAvarage = getAvarage(assigment1, assigment2, assigment3);
 console.log(totalAvarage);
