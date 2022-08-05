@@ -581,3 +581,5 @@ var student = {
   marks: 95,
 }
 console.log(student);
+// object এর কোন speacfick মান দেখেতে চাইলে সে ক্ষেত্রে object এর ব্যবহার ।
+console.log(student.name)
