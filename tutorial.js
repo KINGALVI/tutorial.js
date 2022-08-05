@@ -580,6 +580,8 @@ var student = {
   class: 9,
   marks: 95,
 }
+// object এর মান পরিবতিন করার নিয়ম ।
+student.class=10;
 console.log(student);
 // object এর কোন speacfick মান দেখেতে চাইলে সে ক্ষেত্রে object এর ব্যবহার ।
 console.log(student.name)
