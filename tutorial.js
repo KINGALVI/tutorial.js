@@ -572,3 +572,12 @@ console.log(finalresult);
 
 
 // ৫। javascript এ objecct যেভাবে কাজ করে ।
+
+// সাধারনত objecct যেভাবে লিখে ।
+var student = {
+  id: 66242,
+  name: 'alvi al mahmud',
+  class: 9,
+  marks: 95,
+}
+console.log(student);
