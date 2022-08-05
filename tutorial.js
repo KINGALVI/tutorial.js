@@ -538,7 +538,8 @@ function egg(money) {
 var totalEgg = egg(300);
 console.log('totalEgg :', totalEgg);
 
-// const ব্যবহার করে function এর ফলাফল বের করার নিয়ম ।
+// const এর ভিতরে একাধিক মান বের করার নিয়ম ।
+
 const assigment1 = 55;
 const assigment2 = 42;
 const assigment3 = 56;
@@ -550,3 +551,24 @@ function getAvarage
 }
 const totalAvarage = getAvarage(assigment1, assigment2, assigment3);
 console.log(totalAvarage);
+
+
+function add(num1, num2) {
+  var sum = num1 + num2;
+  return sum;
+}
+result1 = add(12, 14);
+result2 = add(34, 43);
+const finalresult = add(result1, result2);
+console.log(finalresult);
+
+
+
+
+
+
+
+
+
+
+// ৫। javascript এ objecct যেভাবে কাজ করে ।
