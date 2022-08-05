@@ -581,7 +581,15 @@ var student = {
   marks: 95,
 }
 // object এর মান পরিবতিন করার নিয়ম ।
-student.class=10;
+student.class = 10;
 console.log(student);
 // object এর কোন speacfick মান দেখেতে চাইলে সে ক্ষেত্রে object এর ব্যবহার ।
 console.log(student.name)
+
+// object এর কোন propaty এর নাম Array আকারে পেতে চাইলে , সে ক্ষেত্রে object এর ব্যবহার ।
+var proparts = Object.keys(student);
+console.log(proparts);
+
+// object এর কোন propaty এর মান Array আকারে পেতে চাইলে , সে ক্ষেত্রে object এর ব্যবহার ।
+var proparty = Object.values(student);
+console.log(proparty);
