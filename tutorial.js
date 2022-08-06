@@ -609,16 +609,16 @@ var shoppingcart = {
 }
 
 // long term
-var keys=Object.keys(shoppingcart);
+var keys = Object.keys(shoppingcart);
 console.log(keys);
 
-var values=Object.values(shoppingcart);
+var values = Object.values(shoppingcart);
 console.log(values);
 
 for (i = 0; i < keys.length; i++) {
-var propartyName = keys[i];
-var propatyValue = values[i];
-console.log(propartyName,propatyValue);
+  var propartyName = keys[i];
+  var propatyValue = values[i];
+  console.log(propartyName, propatyValue);
 }
 
 // short term
@@ -632,7 +632,44 @@ var shoppingcart = {
   bottle: 1,
 }
 
-for(var propartyName in shoppingcart){
+for (var propartyName in shoppingcart) {
   const values = shoppingcart[propartyName];
-  console.log( propartyName, values);
+  console.log(propartyName, values);
+}
+
+var Array = ['alvi :', 54, 'apu :', 45];
+console.log(Array);
+
+var shoppingcart = {
+  books: 3,
+  sunglass: 1,
+  keyboard: 5,
+  mouse: 1,
+  pen: 25,
+  shoes: 2,
+  bottle: 1,
+}
+console.log(shoppingcart);
+
+// loop কে সংক্ষেপে লিখেতে গেলে সে ক্ষেত্রে নিচের নিয়ম লিখেতে হবে ।
+const color = 'yellow';
+switch (color) {
+  case 'green':
+    console.log('you are green my friend');
+    break
+  case 'blue':
+    console.log('you are blue my friend');
+    break
+  case '':
+    console.log('you are blue my friend');
+    break
+  case 'white':
+    console.log('you are white my friend');
+    break
+  case 'red':
+    console.log('you are red my friend');
+    break
+  case 'yellow':
+    console.log('you are yellow my friend');
+    break
 }
