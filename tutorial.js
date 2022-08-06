@@ -622,6 +622,16 @@ console.log(propartyName,propatyValue);
 }
 
 // short term
+var shoppingcart = {
+  books: 3,
+  sunglass: 1,
+  keyboard: 5,
+  mouse: 1,
+  pen: 25,
+  shoes: 2,
+  bottle: 1,
+}
+
 for(var propartyName in shoppingcart){
   const values = shoppingcart[propartyName];
   console.log( propartyName, values);
