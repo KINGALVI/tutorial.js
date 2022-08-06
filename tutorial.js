@@ -652,15 +652,12 @@ var shoppingcart = {
 console.log(shoppingcart);
 
 // loop কে সংক্ষেপে লিখেতে গেলে সে ক্ষেত্রে নিচের নিয়ম লিখেতে হবে ।
-const color = 'yellow';
+const color = ' ';
 switch (color) {
   case 'green':
     console.log('you are green my friend');
     break
   case 'blue':
-    console.log('you are blue my friend');
-    break
-  case '':
     console.log('you are blue my friend');
     break
   case 'white':
@@ -672,4 +669,6 @@ switch (color) {
   case 'yellow':
     console.log('you are yellow my friend');
     break
+  default:
+  console.log('you are my black black friend');
 }
