@@ -595,3 +595,34 @@ console.log(proparts);
 // Array আকারে পেতে চাইলে , সে ক্ষেত্রে object এর ব্যবহার ।
 var proparty = Object.values(student);
 console.log(proparty);
+
+// Object এ for loop এর ব্যবহার ।
+
+var shoppingcart = {
+  books: 3,
+  sunglass: 1,
+  keyboard: 5,
+  mouse: 1,
+  pen: 25,
+  shoes: 2,
+  bottle: 1,
+}
+
+// long term
+var keys=Object.keys(shoppingcart);
+console.log(keys);
+
+var values=Object.values(shoppingcart);
+console.log(values);
+
+for (i = 0; i < keys.length; i++) {
+var propartyName = keys[i];
+var propatyValue = values[i];
+console.log(propartyName,propatyValue);
+}
+
+// short term
+for(var propartyName in shoppingcart){
+  const values = shoppingcart[propartyName];
+  console.log( propartyName, values);
+}
