@@ -591,13 +591,25 @@ function isEvnt (number){
   const eventodd=number % 2;
   // console.log(eventodd);
   if(eventodd==0){
-    console.log('this is a event nunber');
+    console.log('this is a event nunber =' ,number);
   }
   else{
-    console.log('tis is a odd number');
+    console.log('this is a odd numberc =',number);
   }
 }
 isEvnt(44);
+
+function lepyear(year){
+  const YearCount = year % 4;
+if(YearCount==0){
+  console.log("this is a leap year =" ,year);
+}
+else{
+  console.log("this is just a normal year =" ,year)
+}
+}
+lepyear(2022);
+
 
 
 
@@ -711,3 +723,9 @@ switch (color) {
   default:
   console.log('you are my black black friend');
 }
+function getelement(html){
+  for(i =0; i<html.length ; i++){
+    console.log(i);
+  }
+}
+getelement(html);
