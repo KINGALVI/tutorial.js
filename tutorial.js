@@ -610,6 +610,16 @@ else{
 }
 lepyear(2022);
 
+function getsumofanarray (numbers){
+  let sum=0;
+  const index =i;
+  const element=numbers[index];
+  sum=sum +element;
+  console.log(index,element,sum);
+}
+const mynumbers=[12,65,45,78,32,45,91];
+getsumofanarray(mynumbers);
+
 
 
 
@@ -723,9 +733,3 @@ switch (color) {
   default:
   console.log('you are my black black friend');
 }
-function getelement(html){
-  for(i =0; i<html.length ; i++){
-    console.log(i);
-  }
-}
-getelement(html);
