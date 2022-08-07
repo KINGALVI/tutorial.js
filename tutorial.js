@@ -571,6 +571,10 @@ var dadaInches = 144;
 var dadafeet = inchTofeet(dadaInches);
 console.log(dadafeet);
 
+var dadiInches = 144;
+var dadifeet = inchTofeet(dadiInches);
+console.log(dadifeet);
+
 
 
 
