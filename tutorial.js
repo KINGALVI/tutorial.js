@@ -587,6 +587,18 @@ const herkilometer = 5;
 const hermilestone = milestone(herkilometer);
 console.log(hermilestone);
 
+function isEven(number){
+  const reminder = number %2;
+  // console.log(reminder);
+  if(reminder===0){
+  console.log (true);
+  }
+  else{
+    console.log(false);
+  }
+}
+isEven(24);
+
 
 
 
@@ -697,3 +709,15 @@ switch (color) {
   default:
   console.log('you are my black black friend');
 }
+
+function isEven(number){
+  const reminder = number %2;
+  // console.log(reminder);
+  if(reminder===0){
+  console.log (true);
+  }
+  else{
+    console.log(false);
+  }
+}
+isEven(24);
