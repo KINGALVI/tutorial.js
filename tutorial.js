@@ -575,6 +575,18 @@ var dadiInches = 144;
 var dadifeet = inchTofeet(dadiInches);
 console.log(dadifeet);
 
+function milestone (kilometer){
+  var lenght = kilometer * 1.60934;
+  return lenght;
+}
+const mykilometer = 5;
+const mymilestone = milestone(mykilometer);
+console.log(mymilestone);
+
+const herkilometer = 5;
+const hermilestone = milestone(herkilometer);
+console.log(hermilestone);
+
 
 
 
