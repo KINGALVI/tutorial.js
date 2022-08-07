@@ -562,6 +562,15 @@ result2 = add(34, 43);
 const finalresult = add(result1, result2);
 console.log(finalresult);
 
+// importent function example.
+function inchTofeet(inches){
+  const feet = inches /12;
+  return feet;
+ }
+var dadaInches = 144;
+var dadafeet = inchTofeet(dadaInches);
+console.log(dadafeet);
+
 
 
 
