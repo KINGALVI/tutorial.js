@@ -497,7 +497,7 @@ for (var num = 10; num >= 1; num--) {
 
 
 
-// ৪। javascript এ function যেভাবে কাজ করে ।
+// ৫। javascript এ function যেভাবে কাজ করে ।
 
 // function চালু করার সাধারণ নিয়ম ।
 function starting(money) {
@@ -587,17 +587,17 @@ const herkilometer = 5;
 const hermilestone = milestone(herkilometer);
 console.log(hermilestone);
 
-function isEven(number){
-  const reminder = number %2;
-  // console.log(reminder);
-  if(reminder===0){
-  console.log (true);
+function isEvnt (number){
+  const eventodd=number % 2;
+  // console.log(eventodd);
+  if(eventodd==0){
+    console.log('this is a event nunber');
   }
   else{
-    console.log(false);
+    console.log('tis is a odd number');
   }
 }
-isEven(24);
+isEvnt(44);
 
 
 
@@ -608,7 +608,9 @@ isEven(24);
 
 
 
-// ৫। javascript এ objecct যেভাবে কাজ করে ।
+
+
+// ৬। javascript এ objecct যেভাবে কাজ করে ।
 
 // সাধারনত objecct যেভাবে লিখে ।
 var student = {
@@ -709,15 +711,3 @@ switch (color) {
   default:
   console.log('you are my black black friend');
 }
-
-function isEven(number){
-  const reminder = number %2;
-  // console.log(reminder);
-  if(reminder===0){
-  console.log (true);
-  }
-  else{
-    console.log(false);
-  }
-}
-isEven(24);
