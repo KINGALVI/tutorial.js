@@ -638,7 +638,7 @@ function getevenNumbersofAnArray(numbers){
   }
   return evennumder;
 }
-// console.log(evennumder);
+// let evenumber = getevenofanarray(evenumber);
 getevenNumbersofAnArray(MyNumbers);
 
 
@@ -656,7 +656,7 @@ function getOddNumbersofAnArray(numbers){
   }
   return oddnumber
 }
-// console.log(oddnumber);
+// let oddnumder = getoddnumbersofarray (oddnumder)
 getOddNumbersofAnArray(my_numbers);
 
 
