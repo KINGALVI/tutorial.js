@@ -627,7 +627,7 @@ getsumofanarray(mynumbers);
 // find eventodd :even
 const MyNumbers= [24,56,78,45,73,39];
 function getevenNumbersofAnArray(numbers){
-  const evennumder = [10];
+  const evennumder = [];
   for(let i=0; i<numbers.length;i++){
   const index =i;
   const element = numbers[i];
@@ -638,14 +638,14 @@ function getevenNumbersofAnArray(numbers){
   }
   return evennumder;
 }
-getevenNumbersofAnArray(MyNumbers);
 // console.log(evennumder);
+getevenNumbersofAnArray(MyNumbers);
 
 
 // find eventodd :odd
 const my_numbers= [24,56,77,45,78,99];
 function getOddNumbersofAnArray(numbers){
-  const oddnumber = [55];
+  const oddnumber = [];
   for(let i=0; i<numbers.length;i++){
   const index =i;
   const element = numbers[i];
@@ -656,8 +656,8 @@ function getOddNumbersofAnArray(numbers){
   }
   return oddnumber
 }
-getOddNumbersofAnArray(my_numbers);
 // console.log(oddnumber);
+getOddNumbersofAnArray(my_numbers);
 
 
 
