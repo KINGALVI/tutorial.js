@@ -409,6 +409,15 @@ else if (39 <= []) {
   console.log("f grade")
 }
 
+const username = "alvi";
+const userinput = "alvo";
+if (username.toLocaleUpperCase == userinput.toLocaleUpperCase) {
+  console.log(true);
+}
+else {
+  console.log(false);
+}
+
 
 
 
@@ -563,10 +572,10 @@ const finalresult = add(result1, result2);
 console.log(finalresult);
 
 // importent function example.
-function inchTofeet(inches){
-  const feet = inches /12;
+function inchTofeet(inches) {
+  const feet = inches / 12;
   return feet;
- }
+}
 var dadaInches = 144;
 var dadafeet = inchTofeet(dadaInches);
 console.log(dadafeet);
@@ -575,7 +584,7 @@ var dadiInches = 144;
 var dadifeet = inchTofeet(dadiInches);
 console.log(dadifeet);
 
-function milestone (kilometer){
+function milestone(kilometer) {
   var lenght = kilometer * 1.60934;
   return lenght;
 }
@@ -587,54 +596,53 @@ const herkilometer = 5;
 const hermilestone = milestone(herkilometer);
 console.log(hermilestone);
 
-function isEvnt (number){
-  const eventodd=number % 2;
+function isEvnt(number) {
+  const eventodd = number % 2;
   // console.log(eventodd);
-  if(eventodd==0){
-    console.log('this is a event nunber =' ,number);
+  if (eventodd == 0) {
+    console.log('this is a event nunber =', number);
   }
-  else{
-    console.log('this is a odd numberc =',number);
+  else {
+    console.log('this is a odd numberc =', number);
   }
 }
 isEvnt(44);
 
-function lepyear(year){
+function lepyear(year) {
   const YearCount = year % 4;
-if(YearCount==0){
-  console.log("this is a leap year =" ,year);
-}
-else{
-  console.log("this is just a normal year =" ,year)
-}
+  if (YearCount == 0) {
+    console.log("this is a leap year =", year);
+  }
+  else {
+    console.log("this is just a normal year =", year)
+  }
 }
 lepyear(2022);
 
-const mynumbers=[5,65,45,78,32,45,91];
-function getsumofanarray(numbers){
-  let sum=0;
-  for(let i =0; i <numbers.length;i++)
-{
-  const index =i;
-  const element=numbers[i];
-  sum=sum +element;
-  console.log(index,element,sum);
-}
-return sum;
+const mynumbers = [5, 65, 45, 78, 32, 45, 91];
+function getsumofanarray(numbers) {
+  let sum = 0;
+  for (let i = 0; i < numbers.length; i++) {
+    const index = i;
+    const element = numbers[i];
+    sum = sum + element;
+    console.log(index, element, sum);
+  }
+  return sum;
 }
 getsumofanarray(mynumbers);
 
 // find eventodd :even
-const MyNumbers= [24,56,78,45,73,39];
-function getevenNumbersofAnArray(numbers){
+const MyNumbers = [24, 56, 78, 45, 73, 39];
+function getevenNumbersofAnArray(numbers) {
   const evennumder = [];
-  for(let i=0; i<numbers.length;i++){
-  const index =i;
-  const element = numbers[i];
-  if(element%2===0){
-    console.log(index,element);
-    evennumder.push(element);
-  }
+  for (let i = 0; i < numbers.length; i++) {
+    const index = i;
+    const element = numbers[i];
+    if (element % 2 === 0) {
+      console.log(index, element);
+      evennumder.push(element);
+    }
   }
   return evennumder;
 }
@@ -643,16 +651,16 @@ getevenNumbersofAnArray(MyNumbers);
 
 
 // find eventodd :odd
-const my_numbers= [24,56,77,45,78,99];
-function getOddNumbersofAnArray(numbers){
+const my_numbers = [24, 56, 77, 45, 78, 99];
+function getOddNumbersofAnArray(numbers) {
   const oddnumber = [];
-  for(let i=0; i<numbers.length;i++){
-  const index =i;
-  const element = numbers[i];
-  if(element %2!==0){
-    console.log(index,element);
-    oddnumber.push(element);
-  }
+  for (let i = 0; i < numbers.length; i++) {
+    const index = i;
+    const element = numbers[i];
+    if (element % 2 !== 0) {
+      console.log(index, element);
+      oddnumber.push(element);
+    }
   }
   return oddnumber
 }
@@ -776,5 +784,6 @@ switch (color) {
     console.log('you are yellow my friend');
     break
   default:
-  console.log('you are my black black friend');
+    console.log('you are my black black friend');
 }
+
