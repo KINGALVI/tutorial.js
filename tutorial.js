@@ -610,19 +610,50 @@ else{
 }
 lepyear(2022);
 
-function getsumofanarray (numbers){
+const mynumbers=[12,65,45,78,32,45,91];
+function getsumofanarray(numbers){
   let sum=0;
   for(let i =0; i <numbers.lenght;i++)
 {
   const index =i;
-  const element=numbers[index];
+  const element=numbers[i];
   sum=sum +element;
   console.log(index,element,sum);
 }
 return sum;
 }
-const mynumbers=[12,65,45,78,32,45,91];
 getsumofanarray(mynumbers);
+
+// find eventodd :even
+const MyNumbers= [24,56,78,45,73,39];
+function getevenNumbersofAnArray(numbers){
+  for(let i=0; i<numbers.length;i++){
+  const index =i;
+  const element = numbers[i];
+  if(element%2===0){
+    console.log(index,element);
+  }
+  }
+}
+getevenNumbersofAnArray(MyNumbers);
+
+// find eventodd :odd
+const my_numbers= [24,56,77,45,78,99];
+function getOddNumbersofAnArray(numbers){
+  for(let i=0; i<numbers.length;i++){
+  const index =i;
+  const element = numbers[i];
+  if(element %2==!0){
+    console.log(index,element);
+  }
+  }
+}
+getOddNumbersofAnArray(my_numbers);
+
+
+
+
+
 
 
 
