@@ -643,7 +643,7 @@ function getOddNumbersofAnArray(numbers){
   for(let i=0; i<numbers.length;i++){
   const index =i;
   const element = numbers[i];
-  if(element %2==!0){
+  if(element %2!==0){
     console.log(index,element);
   }
   }
