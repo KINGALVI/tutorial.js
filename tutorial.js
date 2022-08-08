@@ -639,6 +639,8 @@ function getevenNumbersofAnArray(numbers){
   return evennumder;
 }
 getevenNumbersofAnArray(MyNumbers);
+// console.log(evennumder);
+
 
 // find eventodd :odd
 const my_numbers= [24,56,77,45,78,99];
@@ -655,6 +657,8 @@ function getOddNumbersofAnArray(numbers){
   return oddnumber
 }
 getOddNumbersofAnArray(my_numbers);
+// console.log(oddnumber);
+
 
 
 
