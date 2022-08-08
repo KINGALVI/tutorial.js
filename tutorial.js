@@ -610,10 +610,10 @@ else{
 }
 lepyear(2022);
 
-const mynumbers=[12,65,45,78,32,45,91];
+const mynumbers=[5,65,45,78,32,45,91];
 function getsumofanarray(numbers){
   let sum=0;
-  for(let i =0; i <numbers.lenght;i++)
+  for(let i =0; i <numbers.length;i++)
 {
   const index =i;
   const element=numbers[i];
