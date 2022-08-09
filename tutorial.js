@@ -146,10 +146,20 @@ var mangoes = 17;
 var person = 5;
 console.log(mangoes % person);
 
-// var এর ভিতরে যদি এক গুচ্ছো string থাকে এবং সেই string এর মধ্যে যদি কোন নিদিষ্ট কোন string আমরা বের করতে চাই সে ক্ষেত্র var  ব্যবহার এর নিয়ম ।
-const paragraph = 'my name is alvi i want to de a good fullstack wed devoloper';
-const ifexgiest = paragraph.includes("fullstack")
-console.log(ifexgiest);
+// var এর ভিতরে যদি এক গুচ্ছো string থাকে এবং সেই string এর মধ্যে যদি কোন নিদিষ্ট কোন string  আছে নাকি সেটা আমরা বের করতে চাই সে ক্ষেত্র var  ব্যবহার এর নিয়ম ।
+const paragraph1 = 'my name is alvi i want to de a good fullstack wed devoloper';
+const ifexgiest1 = paragraph1.includes("fullstack")
+console.log(ifexgiest1);
+
+// কোন String এর প্রথম মান যদি আমরা বের করতে চাই সে ক্ষেত্রে var এর ব্যবহার ।
+const paragraph2 = 'my name is alvi i want to de a good fullstack wed devoloper';
+const ifexgiest2 = paragraph2.startsWith("fullstack");
+console.log(ifexgiest2);
+
+// কোন String এর শেষ মান যদি আমরা বের করতে চাই সে ক্ষেত্রে var এর ব্যবহার ।
+const paragraph3 = 'my name is alvi i want to de a good fullstack wed devoloper';
+const ifexgiest3 = paragraph3.endsWith("devoloper");
+console.log(ifexgiest3);
 
 // var এর ক্ষেত্রে কোন মান এর মধ্যে পাথক্য বা comparision বের করার নিয়ম ।
 var num1 = 50;
