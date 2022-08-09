@@ -146,7 +146,12 @@ var mangoes = 17;
 var person = 5;
 console.log(mangoes % person);
 
-// var এর ক্ষেত্রে কোন মান ছোট কিনবা বড় কিনা সেটা বের করার নিয়ম ।
+// var এর ভিতরে যদি এক গুচ্ছো string থাকে এবং সেই string এর মধ্যে যদি কোন নিদিষ্ট কোন string আমরা বের করতে চাই সে ক্ষেত্র var  ব্যবহার এর নিয়ম ।
+const paragraph = 'my name is alvi i want to de a good fullstack wed devoloper';
+const ifexgiest = paragraph.includes("fullstack")
+console.log(ifexgiest);
+
+// var এর ক্ষেত্রে কোন মান এর মধ্যে পাথক্য বা comparision বের করার নিয়ম ।
 var num1 = 50;
 var num2 = 100;
 console.log(num1 < num2);
@@ -786,4 +791,3 @@ switch (color) {
   default:
     console.log('you are my black black friend');
 }
-
