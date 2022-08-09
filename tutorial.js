@@ -290,6 +290,15 @@ var names = ['alvi', "shale", "apu", "arghya", "rakib", 'ahsoan'];
 element = names.shift();
 console.log(element);
 
+// কোন string এর sentence কে যদি আমারা ভাগ করে দেখেতে চাই সে ক্ষেত্রে var এর ব্যবহার ।
+const paragraph4 = 'my name is  alvi . i want to de a good fullstack wed devoloper';
+const ifexgiest4 = paragraph4.split(" ");
+console.log(ifexgiest4);
+
+const paragraph5 = 'my name is  alvi . i want to de a good fullstack wed devoloper';
+const ifexgiest5 = paragraph5.split(".");
+console.log(ifexgiest5);
+
 // কোন Array এর ভিতরে কোন মান ছোট আথবা সমান কিনা সেটা বের করতে চাইলে সে ক্ষেত্রে Array এর ব্যবাহার ।
 console.log(4 < 5);
 console.log(6 < 5);
