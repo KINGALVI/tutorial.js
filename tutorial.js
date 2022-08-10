@@ -299,6 +299,18 @@ const paragraph5 = 'my name is  alvi . i want to de a good fullstack wed devolop
 const ifexgiest5 = paragraph5.split(".");
 console.log(ifexgiest5);
 
+const paragraph6 = ['my name is  alvi  i want to de a good fullstack wed devoloper'];
+const ifexgiest6 = paragraph6.join(':');
+console.log(ifexgiest6);
+
+const paragraph7 = 'my name is  alvi .'; 'i want to de a good fu' ;'llstack wed devoloper';
+const ifexgiest7 = paragraph7.slice('.');
+console.log(ifexgiest7);
+
+// math var
+// var math1 = al.pow(3, 8);
+// console.log(math1);
+
 // কোন Array এর ভিতরে কোন মান ছোট আথবা সমান কিনা সেটা বের করতে চাইলে সে ক্ষেত্রে Array এর ব্যবাহার ।
 console.log(4 < 5);
 console.log(6 < 5);
