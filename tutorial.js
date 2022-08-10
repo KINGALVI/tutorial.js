@@ -714,7 +714,7 @@ const myString1 = 'i am a good boy';
 const reverce1 = reversestring1(myString1);
 
 function reversestring2(text2) {
-  for (i = text2.length; i >= 0; i--) {
+  for (i = text2.length-1; i >= 0; i--) {
     const element2 = text2[i];
     console.log(element2);
   }
