@@ -303,7 +303,7 @@ const paragraph6 = ['my name is  alvi  i want to de a good fullstack wed devolop
 const ifexgiest6 = paragraph6.join(':');
 console.log(ifexgiest6);
 
-const paragraph7 = 'my name is  alvi .'; 'i want to de a good fu' ;'llstack wed devoloper';
+const paragraph7 = 'my name is  alvi .'; 'i want to de a good fu'; 'llstack wed devoloper';
 const ifexgiest7 = paragraph7.slice('.');
 console.log(ifexgiest7);
 
@@ -703,6 +703,24 @@ function getOddNumbersofAnArray(numbers) {
 // let oddnumder = getoddnumbersofarray (oddnumder)
 getOddNumbersofAnArray(my_numbers);
 
+// string and revece string
+function reversestring1(text1) {
+  for (a=0; a< text1.length; a++) {
+    const element1 = text1[a];
+    console.log(element1);
+  }
+}
+const myString1 = 'i am a good boy';
+const reverce1 = reversestring1(myString1);
+
+function reversestring2(text2) {
+  for (i = text2.length; i >= 0; i--) {
+    const element2 = text2[i];
+    console.log(element2);
+  }
+}
+const myString2 = 'i am a good boy';
+const reverce2 = reversestring2(myString2);
 
 
 
@@ -822,3 +840,6 @@ switch (color) {
   default:
     console.log('you are my black black friend');
 }
+
+
+                                    //length
