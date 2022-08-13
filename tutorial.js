@@ -728,6 +728,7 @@ function sum(i){
   if(i==1){
     return 1;
   }
+  // else
   return i + sum(i-1);
 }
 console.log(result);
@@ -737,6 +738,7 @@ function foctorial1(i){
   if(i==1){
     return 1;
   }
+  // else
   return i *foctorial1(i-1);
 }
 console.log(result10);
