@@ -723,14 +723,23 @@ const reverce1 = reversestring1(myString1);
 // const reverce2 = reversestring2(myString2);
 
 // calculate sum of numbers using recursion
+const result=5;
 function sum(i){
   if(i==1){
     return 1;
   }
   return i + sum(i-1);
 }
-const result=5;
 console.log(result);
+
+const result10=foctorial1(5);
+function foctorial1(i){
+  if(i==1){
+    return 1;
+  }
+  return i *foctorial1(i-1);
+}
+console.log(result10);
 
 
 
