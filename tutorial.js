@@ -722,6 +722,16 @@ const reverce1 = reversestring1(myString1);
 // const myString2 = 'i am a good boy';
 // const reverce2 = reversestring2(myString2);
 
+// calculate sum of numbers using recursion
+function sum(i){
+  if(i==1){
+    return 1;
+  }
+  return i + sum(i-1);
+}
+const result=5;
+console.log(result);
+
 
 
 
