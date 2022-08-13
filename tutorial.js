@@ -713,14 +713,14 @@ function reversestring1(text1) {
 const myString1 = 'i am a good boy';
 const reverce1 = reversestring1(myString1);
 
-function reversestring2(text2) {
-  for (i = text2.length-1; i >= 0; i--) {
-    const element2 = text2[i];
-    console.log(element2);
-  }
-}
-const myString2 = 'i am a good boy';
-const reverce2 = reversestring2(myString2);
+// function reversestring2(text2) {
+//   for (i = text2.length-1; i >= 0; i--) {
+//     const element2 = text2[i];
+//     console.log(element2);
+//   }
+// }
+// const myString2 = 'i am a good boy';
+// const reverce2 = reversestring2(myString2);
 
 
 
@@ -840,6 +840,5 @@ switch (color) {
   default:
     console.log('you are my black black friend');
 }
-
 
                                     //length
