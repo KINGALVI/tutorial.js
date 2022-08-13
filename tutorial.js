@@ -540,6 +540,20 @@ for (var num = 10; num >= 1; num--) {
 
 }
 
+// while loof কে আরোও সক্ষেপে লেখার নিয়ম ।
+const al =[24, 56, 78, 45, 73, 39];
+for(const mahamud of al){
+  console.log(al);
+}
+
+const ali =[24, 56, 78, 45, 73, 39];
+for(const {} of al){
+  console.log(al);
+}
+
+
+
+
 
 
 
@@ -873,5 +887,4 @@ switch (color) {
   default:
     console.log('you are my black black friend');
 }
-
                                     //length
