@@ -494,6 +494,13 @@ for (var r = 5; r <= 15; r += 2) {
   console.log(r);
 }
 
+const number50=[2,56,445,645,353,2424,5636,2355];
+
+for(let i =0; i<number50.length; i++){
+  number50[i];
+  console.log(number50);
+}
+
 // while loop বিজোড় সংখ্যা  বের করার একটা সাধারণ নিয়ম ।
 var roastGiven = 1;
 while (roastGiven <= 10) {
@@ -599,17 +606,17 @@ console.log(totalAvarage);
 
 // এই arguments logic টি শধু function এর ক্ষেত্রে ব্যবহার করা যায ।
 function arguments(num1, num2) {
-  console.log(num1,num2, arguments)
-  }
-  arguments(3, 4 ,3 ,4 , 5, 56 ,43, 345, 566, 3455, )
+  console.log(num1, num2, arguments)
+}
+arguments(3, 4, 3, 4, 5, 56, 43, 345, 566, 3455,)
 
 function add(num1, num2) {
   var sum = num1 + num2;
   return sum;
 }
 result1 = add(12, 14);
-result2 = add(34, 43);
-const finalresult = add(result1, result2);
+result1 = add(34, 43);
+const finalresult = add(result1, result1);
 console.log(finalresult);
 
 // importent function example.
