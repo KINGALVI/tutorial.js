@@ -551,6 +551,27 @@ for(const {} of al){
   console.log(al);
 }
 
+// loop কে সংক্ষেপে লিখেতে গেলে সে ক্ষেত্রে নিচের নিয়ম লিখেতে হবে ।
+const color = ' ';
+switch (color) {
+  case 'green':
+    console.log('you are green my friend');
+    break
+  case 'blue':
+    console.log('you are blue my friend');
+    break
+  case 'white':
+    console.log('you are white my friend');
+    break
+  case 'red':
+    console.log('you are red my friend');
+    break
+  case 'yellow':
+    console.log('you are yellow my friend');
+    break
+  default:
+    console.log('you are my black black friend');
+}
 
 
 
@@ -866,25 +887,27 @@ var shoppingcart = {
 }
 console.log(shoppingcart);
 
-// loop কে সংক্ষেপে লিখেতে গেলে সে ক্ষেত্রে নিচের নিয়ম লিখেতে হবে ।
-const color = ' ';
-switch (color) {
-  case 'green':
-    console.log('you are green my friend');
-    break
-  case 'blue':
-    console.log('you are blue my friend');
-    break
-  case 'white':
-    console.log('you are white my friend');
-    break
-  case 'red':
-    console.log('you are red my friend');
-    break
-  case 'yellow':
-    console.log('you are yellow my friend');
-    break
-  default:
-    console.log('you are my black black friend');
+const products = [
+  {id:1,ProductsName:"xiani phones",productsPrice:1500},
+  {id:2,ProductsName:"samsumg phones",productsPrice:1500},
+  {id:3,ProductsName:"iphone phones",productsPrice:1500},
+  {id:4,ProductsName:"premax phones",productsPrice:1500},
+  {id:5,ProductsName:"xiani lapTop",productsPrice:1500},
+  {id:6,ProductsName:"samsumg lapTop",productsPrice:1500},
+  {id:7,ProductsName:"iphone lapTop",productsPrice:1500},
+  {id:8,ProductsName:"premax lapTop",productsPrice:1500}
+];
+
+function machedProducts (products,search){
+  const mached=[];
+  for(const product of products){
+  if(product.ProductsName.toLowerCase().includes(search.toLowerCase())){
+    mached.push(products);
+  }
+  }
+  return mached;
 }
+const result25 = machedProducts(products,"phones");
+console.log(result25);
+
                                     //length
