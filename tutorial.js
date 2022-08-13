@@ -597,6 +597,11 @@ function getAvarage
 const totalAvarage = getAvarage(assigment1, assigment2, assigment3);
 console.log(totalAvarage);
 
+// এই arguments logic টি শধু function এর ক্ষেত্রে ব্যবহার করা যায ।
+function arguments(num1, num2) {
+  console.log(num1,num2, arguments)
+  }
+  arguments(3, 4 ,3 ,4 , 5, 56 ,43, 345, 566, 3455, )
 
 function add(num1, num2) {
   var sum = num1 + num2;
@@ -705,7 +710,7 @@ getOddNumbersofAnArray(my_numbers);
 
 // string and revece string
 function reversestring1(text1) {
-  for (a=0; a< text1.length; a++) {
+  for (a = 0; a < text1.length; a++) {
     const element1 = text1[a];
     console.log(element1);
   }
@@ -723,23 +728,23 @@ const reverce1 = reversestring1(myString1);
 // const reverce2 = reversestring2(myString2);
 
 // calculate sum of numbers using recursion
-const result=5;
-function sum(i){
-  if(i==1){
+const result = 5;
+function sum(i) {
+  if (i == 1) {
     return 1;
   }
   // else
-  return i + sum(i-1);
+  return i + sum(i - 1);
 }
 console.log(result);
 
-const result10=foctorial1(5);
-function foctorial1(i){
-  if(i==1){
+const result10 = foctorial1(5);
+function foctorial1(i) {
+  if (i == 1) {
     return 1;
   }
   // else
-  return i *foctorial1(i-1);
+  return i * foctorial1(i - 1);
 }
 console.log(result10);
 
