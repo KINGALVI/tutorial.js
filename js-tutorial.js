@@ -8,11 +8,14 @@ const ElementId =document.getElementById('al');
   }
 
 // ২ । javascript এ কোন Element এর class কে পেতে চাইলে সে ক্ষেত্রে এই code টি লিখেতে হবে ।
-const Elementsclass =document.getElementsByClassName('al');
+const Elementsclass =document.getElementsByClassName('alvi');
   for(const alvi of Elementsclass){
     console.log(alvi.innerText);
   }
 
-// ৩ । javascript এ কোন tag , id , class যদি আমরা তাড়াতাড়ি পেতে চাই তবে সে ক্ষেত্রে quarryselector code ব্যবহার করতে হবে ।
+// ৩ । javascript এ কোন tag , id , class যদি আমরা তাড়াতাড়ি পেতে চাই তবে সে ক্ষেত্রে quarryselector code ব্যবহার করতে হবে (quarryselector সাধারনত দুই ধরনের হয়ে থাকে ঃ ১। quarrySelector 2। querySelectorAll))।
 const quarryselector = document.querySelectorAll('.alvi');
 console.log(quarryselector);
+for(const alvi of quarryselector){
+  console.log(alvi);
+}
