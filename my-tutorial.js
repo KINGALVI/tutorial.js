@@ -47,7 +47,7 @@ MakeGreenButton.onclick = function MakeGreen() {
 
 // ৪থ পদ্ধতি । 
 const MakePinkButton = document.getElementById('MakePink')
-MakePinkButton.addEventListener('click', MakePink)
+MakePinkButton.addEventListener('click', 
 function MakePink() {
   document.body.style.backgroundColor = 'pink';
-}
+})
