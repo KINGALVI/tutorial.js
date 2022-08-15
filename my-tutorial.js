@@ -58,7 +58,15 @@ document.body.style.backgroundColor='goldrod';
 })
 
 // কোন button এ ckick করে সেই button এর সাথে থাকা লেখা পরিবতিন করা যায় ।
+
+// ১ম পদ্ধতি ।
 function oneckicktext() {
-  const textchange = document.getElementById('text')
-  textchange.innerText='my name is alvi'
+  const textchange1 = document.getElementById('text')
+  textchange1.innerText='my name is alvi'
 }
+
+// ২য় পদ্ধতি ।
+document.getElementById('event-listener').addEventListener('click',function (){
+  const textchange2 =document.getElementById('text');
+  textchange2.innerText='i want to de a good wed devoleper'
+})
