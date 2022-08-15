@@ -51,3 +51,8 @@ MakePinkButton.addEventListener('click',
 function MakePink() {
   document.body.style.backgroundColor = 'pink';
 })
+
+// ৫ম পদ্ধতি ।
+document.getElementById('MakeOrange').addEventListener('click',function MakeOrange(){
+document.body.style.backgroundColor='goldrod';
+})
