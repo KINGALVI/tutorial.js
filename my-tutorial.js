@@ -24,3 +24,8 @@ const sec3 = document.getElementsByClassName('sec');
 const li = document.createElement('li')
 li.innerText='al mahamud'
 // sec3.appendChild(up)
+
+// ৩ । কোন button এ click করে যদি কোন কিছু পরিবতিন করেতে হয় , তাহলে সে ক্ষেত্রে নিচের এই code টি লিখেতে হবে । 
+function MakeRed(){
+  document.body.style.backgroundColor='red';
+}
