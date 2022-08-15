@@ -47,14 +47,14 @@ MakeGreenButton.onclick = function MakeGreen() {
 
 // ৪থ পদ্ধতি । 
 const MakePinkButton = document.getElementById('MakePink')
-MakePinkButton.addEventListener('click', 
-function MakePink() {
-  document.body.style.backgroundColor = 'pink';
-})
+MakePinkButton.addEventListener('click',
+  function MakePink() {
+    document.body.style.backgroundColor = 'pink';
+  })
 
 // ৫ম পদ্ধতি ।
-document.getElementById('MakeOrange').addEventListener('click',function MakeOrange(){
-document.body.style.backgroundColor='goldrod';
+document.getElementById('MakeOrange').addEventListener('click', function MakeOrange() {
+  document.body.style.backgroundColor = 'goldrod';
 })
 
 // কোন button এ ckick করে সেই button এর সাথে থাকা লেখা পরিবতিন করা যায় ।
@@ -62,11 +62,19 @@ document.body.style.backgroundColor='goldrod';
 // ১ম পদ্ধতি ।
 function oneckicktext() {
   const textchange1 = document.getElementById('text')
-  textchange1.innerText='my name is alvi'
+  textchange1.innerText = 'my name is alvi'
 }
 
 // ২য় পদ্ধতি ।
-document.getElementById('event-listener').addEventListener('click',function (){
-  const textchange2 =document.getElementById('text');
-  textchange2.innerText='i want to de a good wed devoleper'
+document.getElementById('event-listener').addEventListener('click', function () {
+  const textchange2 = document.getElementById('text');
+  textchange2.innerText = 'i want to de a good wed devoleper'
 })
+
+document.getElementById('btnupdate').addEventListener('click', function(){
+  const textupdate=document.getElementById('inputfield');
+   const textvalue=document.textupdate.Value;
+  const p = document.getElementById('updatetext')
+  p.innerText=textvalue;
+   }
+ )
