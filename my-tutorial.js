@@ -56,3 +56,9 @@ function MakePink() {
 document.getElementById('MakeOrange').addEventListener('click',function MakeOrange(){
 document.body.style.backgroundColor='goldrod';
 })
+
+// কোন button এ ckick করে সেই button এর সাথে থাকা লেখা পরিবতিন করা যায় ।
+function oneckicktext() {
+  const textchange = document.getElementById('text')
+  textchange.innerText='my name is alvi'
+}
