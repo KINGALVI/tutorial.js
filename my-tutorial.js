@@ -1,22 +1,16 @@
 // alert("Hello! I am an alert box!!");
 
 // ১ । javascript এ কোন Element এর class কে পেতে চাইলে সে ক্ষেত্রে এই code টি লিখেতে হবে ।
-const Elementsclass =document.getElementsByClassName('alvi');
-  for(const alvi of Elementsclass){
-    console.log(alvi.innerText);
-  }
+const Elementsclass = document.getElementsByClassName('alvi');
+for (const alvi of Elementsclass) {
+  console.log(alvi.innerText);
+}
 
 // ৩ । javascript এ কোন tag , id , class যদি আমরা তাড়াতাড়ি পেতে চাই তবে সে ক্ষেত্রে quarryselector code ব্যবহার করতে হবে (quarryselector সাধারনত দুই ধরনের হয়ে থাকে ঃ ১। quarrySelector 2। querySelectorAll))।
 const quarryselector = document.querySelectorAll('.alvi');
 console.log(quarryselector);
 for (const alvi of quarryselector) {
   console.log(alvi);
-};
-
-const seci = document.querySelectorAll('section');
-for (mi of seci) {
-  seci.style.backgroundColor = 'red';
-  seci.style.color = 'yellow';
 };
 
 // ৪ । javascript এ কোন class বা id এর element পরিবতিন করতে চাইলে , সে ক্ষেত্রে এই code টী লিখেতে হবে ।
@@ -52,6 +46,7 @@ MakePinkButton.addEventListener('click',
     document.body.style.backgroundColor = 'pink';
   });
 
+// বেশি ব্যবহার করা হবে ।
 // ৫ম পদ্ধতি ।
 document.getElementById('MakeOrange').addEventListener('click', function MakeOrange() {
   document.body.style.backgroundColor = 'goldrod';
@@ -81,9 +76,9 @@ document.getElementById('btnupdate').addEventListener('click', function () {
 
 //   commentdox update বানানোতে ব্যবহার করা হয় ।
 document.getElementById('btn-post').addEventListener('click', function () {
+  const commentcontainer = document.getElementById('comment-container');
   const commenbox = document.getElementById('new-comment');
   const newcomment = commenbox.value
-  const commentcontainer = document.getElementById('comment-container');
   const p = document.createElement('p');
   p.innerText = newcomment;
   commentcontainer.appendChild(p);
@@ -124,17 +119,46 @@ document.getElementById('text-area-event2').addEventListener('keyup', function (
 })
 
 // delete button wedsite এ apply করতে গেলে সে ক্ষেত্রে javascript এর ব্যবহার । 
-document.getElementById('input-delete').addEventListener('keyup',function(event){
-  const DeleteText =event.target.value;
+document.getElementById('input-delete').addEventListener('keyup', function (event) {
+  const DeleteText = event.target.value;
   const DeleteButton = document.getElementById('btn-delete');
-  if(DeleteText=="delete"){
+  if (DeleteText == "delete") {
     DeleteButton.removeAttribute('disabled');
   }
-  else{
-    DeleteButton.setAttribute('disabled',true);
+  else {
+    DeleteButton.setAttribute('disabled', true);
   }
 })
-document.getElementById('btn-delete').addEventListener('click',function(){
-  const DeleteText =document.getElementById('delete-text');
-  DeleteText.style.display='none';
+document.getElementById('btn-delete').addEventListener('click', function () {
+  const DeleteText = document.getElementById('delete-text');
+  DeleteText.style.display = 'none';
+})
+
+//javascript এ eventBubble এর ব্যবহার ।
+document.getElementById('item-2').addEventListener('click', function (event) {
+  console.log('item clicked')
+  // event.stopPropagation();
+  event.stopImmediatePropagation();
+})
+document.getElementById('list-ul').addEventListener('click', function () {
+  console.log('list-ul clicked')
+})
+document.getElementById('list-container').addEventListener('click', function () {
+  console.log('list-container clicked')
+})
+
+// কোন লেখা সরানো বা button যোগ করে কোন লেখা কে যোগ করার ক্ষেত্রে javascript এর ব্যবহার ।
+const items = document.getElementsByClassName('item')
+for (const item of items) {
+  item.addEventListener('click', function (event) {
+    // console.log(event.target);
+    event.target.parentNode.removeChild(event.target);
+  })
+}
+document.getElementById('btn-add-item').addEventListener('click', function () {
+  const listcosntainer = document.getElementById('list-coctainer');
+  const li = document.createElement('li');
+  li.innerText = 'brand new line added';
+  li.classList.add('item');
+  listcosntainer.appendChild(li);
 })

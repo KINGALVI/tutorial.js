@@ -2,3 +2,19 @@ body {
   background-color: black;
   color: white;
 }
+
+.alvi li {
+  list-style: none;
+}
+
+#sec li {
+  list-style: none;
+}
+
+#list-ul li {
+  list-style: none;
+}
+
+#list-coctainer li {
+  list-style: none;
+}
