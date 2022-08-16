@@ -73,8 +73,7 @@ document.getElementById('event-listener').addEventListener('click', function () 
 
 document.getElementById('btnupdate').addEventListener('click', function(){
   const textupdate=document.getElementById('inputfield');
-   const textvalue=document.textupdate.Value;
-  const p = document.getElementById('updatetext')
-  p.innerText=textvalue;
-   }
- )
+  const updatetext =textupdate.value;
+  const p = document.getElementById('justupdatetext')
+  p.innerText=updatetext;
+   })
