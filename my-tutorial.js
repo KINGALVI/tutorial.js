@@ -122,3 +122,16 @@ document.getElementById('text-area-event2').addEventListener('keydown', function
 document.getElementById('text-area-event2').addEventListener('keyup', function () {
   console.log('keyup')
 })
+
+// delete button wedsite এ apply করতে গেলে সে ক্ষেত্রে javascript এর ব্যবহার । 
+document.getElementById('input-delete').addEventListener('keyup',function(event){
+  const DeleteText =event.target.value;
+  const DeleteButton = document.getElementById('btn-delete');
+  if(DeleteText=="delete"){
+    DeleteButton.removeAttribute('disabled');
+  }
+})
+document.getElementById('btn-delete').addEventListener('click',function(){
+  const DeleteText =document.getElementById('delete-text');
+  DeleteText.style.display='none';
+})
