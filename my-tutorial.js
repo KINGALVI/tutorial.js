@@ -155,6 +155,9 @@ for (const item of items) {
     event.target.parentNode.removeChild(event.target);
   })
 }
+document.getElementById('list-coctainer').addEventListener('click', function (event) {
+  event.target.parentNode.removeChild(event.target);
+})
 document.getElementById('btn-add-item').addEventListener('click', function () {
   const listcosntainer = document.getElementById('list-coctainer');
   const li = document.createElement('li');
