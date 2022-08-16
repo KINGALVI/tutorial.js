@@ -1,10 +1,10 @@
 // alert("Hello! I am an alert box!!");
 
 // ১ । javascript এ কোন Element এর class কে পেতে চাইলে সে ক্ষেত্রে এই code টি লিখেতে হবে ।
-// const Elementsclass =document.getElementsByClassName('alvi');
-//   for(const alvi of Elementsclass){
-//     console.log(alvi.innerText);
-//   }
+const Elementsclass =document.getElementsByClassName('alvi');
+  for(const alvi of Elementsclass){
+    console.log(alvi.innerText);
+  }
 
 // ৩ । javascript এ কোন tag , id , class যদি আমরা তাড়াতাড়ি পেতে চাই তবে সে ক্ষেত্রে quarryselector code ব্যবহার করতে হবে (quarryselector সাধারনত দুই ধরনের হয়ে থাকে ঃ ১। quarrySelector 2। querySelectorAll))।
 const quarryselector = document.querySelectorAll('.alvi');
@@ -81,11 +81,44 @@ document.getElementById('btnupdate').addEventListener('click', function () {
 
 //   commentdox update বানানোতে ব্যবহার করা হয় ।
 document.getElementById('btn-post').addEventListener('click', function () {
-  const commenbox=document.getElementById('new-comment');
-  const newcomment=commenbox.value
+  const commenbox = document.getElementById('new-comment');
+  const newcomment = commenbox.value
   const commentcontainer = document.getElementById('comment-container');
-  const p= document.createElement('p');
-  p.innerText=newcomment;
+  const p = document.createElement('p');
+  p.innerText = newcomment;
   commentcontainer.appendChild(p);
-  commenbox.value='';
+  commenbox.value = '';
+})
+
+// mosue এর বিষয়ে আরোও আনেক evensts আছে । সেগুলো ব্যাখ্যা দেওয়া হল ।
+// ১ম event
+document.getElementById('btn-event1').addEventListener('mouseenter', function () {
+  console.log('event1')
+})
+
+// ২য় event
+document.getElementById('btn-event2').addEventListener('mousemove', function () {
+  console.log('event2')
+})
+
+// class=  ৩য় event
+
+// id = focus event
+document.getElementById('text-area').addEventListener('focus', function () {
+  console.log('focus');
+})
+
+// id = blur event
+document.getElementById('text-area').addEventListener('blur', function () {
+  console.log('blur');
+})
+
+// id = keydown event
+document.getElementById('text-area').addEventListener('keydown', function () {
+  console.log('keydown');
+})
+
+// id = keyup event
+document.getElementById('text-area').addEventListener('keyup', function () {
+  console.log('keyup')
 })
