@@ -104,21 +104,21 @@ document.getElementById('btn-event2').addEventListener('mousemove', function () 
 // class=  ৩য় event
 
 // id = focus event
-document.getElementById('text-area').addEventListener('focus', function () {
+document.getElementById('text-area-event2').addEventListener('focus', function () {
   console.log('focus');
 })
 
 // id = blur event
-document.getElementById('text-area').addEventListener('blur', function () {
+document.getElementById('text-area-event2').addEventListener('blur', function () {
   console.log('blur');
 })
 
 // id = keydown event
-document.getElementById('text-area').addEventListener('keydown', function () {
+document.getElementById('text-area-event2').addEventListener('keydown', function () {
   console.log('keydown');
 })
 
 // id = keyup event
-document.getElementById('text-area').addEventListener('keyup', function () {
+document.getElementById('text-area-event2').addEventListener('keyup', function () {
   console.log('keyup')
 })
