@@ -130,6 +130,9 @@ document.getElementById('input-delete').addEventListener('keyup',function(event)
   if(DeleteText=="delete"){
     DeleteButton.removeAttribute('disabled');
   }
+  else{
+    DeleteButton.setAttribute('disabled',true);
+  }
 })
 document.getElementById('btn-delete').addEventListener('click',function(){
   const DeleteText =document.getElementById('delete-text');
